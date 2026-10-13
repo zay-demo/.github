@@ -14,7 +14,7 @@
 
 <!-- Ecosystem & Architecture Badges -->
 <p align="center">
-  <a href="https://riscv.org/"><img src="https://img.shields.io/badge/ISA-RISC--V%20(RVA22%20%2B%20Vector%201.0)-blue?style=flat-square&logo=riscv&logoColor=white" alt="RISC-V"></a>
+  <a href="https://riscv.org/"><img src="https://img.shields.io/badge/ISA-RISC--V%20(RVA23%20%2B%20Vector%201.0)-blue?style=flat-square&logo=riscv&logoColor=white" alt="RISC-V"></a>
   <a href="https://www.kernel.org/"><img src="https://img.shields.io/badge/Linux%20Kernel-Mainline%20Supported-success?style=flat-square&logo=linux&logoColor=white" alt="Linux"></a>
   <img src="https://img.shields.io/badge/Toolchain-GCC%20%7C%20LLVM%20Upstream-orange?style=flat-square" alt="Toolchain">
   <img src="https://img.shields.io/badge/Silicon-K1%20%7C%20K3%20SoCs-blueviolet?style=flat-square" alt="Hardware">

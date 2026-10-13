@@ -84,8 +84,8 @@ SpacemiT Robot SDK provides an integrated software stack for robotics developmen
 
 | CPU | Form Factors & Segments | Architecture & Highlights | Primary Repositories |
 | :--- | :--- | :--- | :--- |
-| **SpacemiT K1** | Single-board Computers, Edge AI Gateways, Smart Displays | 8-core RISC-V (RVA22), 2.0 TOPS NPU, RISC-V Vector 1.0 support | Linux BSP, Muse-Pi OS, NPU Toolchain |
-| **SpacemiT K3** | Embodied AI, Humanoids, Quadrupeds, Robotic Arms | High-throughput Heterogeneous Compute, High-bandwidth Vision/Sensory I/O | [spacemit-robotics](https://github.com/spacemit-robotics), MuJoCo-to-K3 Runtime |
+| **[SpacemiT K1](https://www.spacemit.com/community/document/info?lang=en&nodepath=hardware/key_stone/k1/k1_docs/root_overview.md)** | Single-board Computers, Edge AI Gateways, Smart Displays | 8-core RISC-V (RVA22), 2.0 TOPS NPU, RISC-V Vector 1.0 support | Linux BSP, Muse-Pi OS, NPU Toolchain |
+| **[SpacemiT K3](https://www.spacemit.com/community/document/info?lang=en&nodepath=hardware/key_stone/k3/k3_docs/root_overview.md)** | Embodied AI, Humanoids, Quadrupeds, Robotic Arms | High-throughput Heterogeneous Compute, High-bandwidth Vision/Sensory I/O | [spacemit-robotics](https://github.com/spacemit-robotics), MuJoCo-to-K3 Runtime |
 
 ---
 

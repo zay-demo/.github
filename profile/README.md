@@ -23,7 +23,7 @@
 
 <p align="center">
   <a href="https://docs.spacemit.com">Documentation</a> •
-  <a href="#-silicon-matrix">Silicon Matrix</a> •
+  <a href="#-silicon-matrix">Product Matrix</a> •
   <a href="https://github.com/spacemit-robotics">Robotics Hub</a> •
   <a href="#-open-source-stack">Software Stack</a> •
   <a href="https://forum.spacemit.com">Community</a>
@@ -59,7 +59,7 @@ Think of it as a Raspberry Pi-class platform running generative LLMs and multimo
 - **Conversational Voice**: Full offline edge pipeline: Wake-Word → VAD → ASR → On-device LLM reasoning → TTS.
 - **Multi-Agent Loops**: Autonomous local tasks with peripheral sensor input.
 
-👉 **[Explore AI Agent Repositories →](https://github.com/spacemit-robotics)**
+👉 **[Explore AI Agent Repositories →](https://github.com/spacemit-com)**
 
 </td>
 <td width="50%" valign="top">

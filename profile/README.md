@@ -55,7 +55,7 @@ Agent Computer is an open edge AI platform designed to bring multimodal intellig
 - **On-Device AI Foundation**: [Build and deploy edge AI applications with AI SDK](https://github.com/spacemit-com/ai-sdk)
 - **Meeting and Translation Assistants**: [Build privacy-focused meeting and real-time translation assistants ](https://github.com/spacemit-com/docs-ai/blob/main/zh/solutions/aicomputer_solution/yumeet.md)
 - **Document-to-Markdown Conversion**: [Convert complex documents into clean, structured Markdown](https://github.com/spacemit-com/docs-ai/blob/main/zh/solutions/aicomputer_solution/file2md.md)
-- **Multi-Channel Speech Recognition**: [Process and transcribe multiple concurrent audio streams](https://github.com/spacemit-com/docs-ai/blob/main/zh/solutions/aicomputer_solution/multi_stream_asr.md)
+- **Multi-Channel Speech Recognition**: [Process and transcribe multiple concurrent audio streams using on-device models](https://github.com/spacemit-com/docs-ai/blob/main/zh/solutions/aicomputer_solution/multi_stream_asr.md)
 
 👉 **[Explore AI Agent Repositories →](https://github.com/spacemit-com)**
 

@@ -9,7 +9,6 @@
 
 <p align="center">
   <b>Focused on developing next-generation high-performance AI CPUs based on RISC-V architecture and providing integrated hardware-software optimized computing solutions.</b><br>
-  Zero Cloud Latency • Deterministic Privacy • Upstream Mainline Native
 </p>
 
 <!-- Ecosystem & Architecture Badges -->
@@ -35,7 +34,7 @@
 
 ### About SpacemiT
 
-SpacemiT builds next-generation RISC-V compute processors designed for demanding edge workloads. Our SoCs integrate high-throughput computing cores, standard vector extensions (RVV 1.0), and dedicated neural acceleration directly onto silicon — enabling **100% on-device AI execution** without recurring cloud API fees or network latency penalties.
+Founded in November 2021, we are a RISC-V architecture AI CPU chip company. We independently develop full-stack core technologies to provide a range of chip products and computing systems, including terminal AI CPUs, cloud AI CPUs, and cloud AI inference. Our mission is to advance and perfect the RISC-V + AI intelligent computing ecosystem, driving innovation in applications such as AI computers and AI robots.
 
 > **Upstream-First Engineering**  
 > We actively contribute to open-source foundation projects. Both **K1** and **K3** are supported in **mainline Linux**, standard **GCC**, **LLVM**, and **Binutils**. No proprietary toolchains, no obsolete custom forks — standard distribution packages from Debian, Ubuntu, and Fedora work out of the box.
@@ -95,6 +94,6 @@ SpacemiT Robot SDK provides an integrated software stack for robotics developmen
 
 Whether you are bringing up a custom board, packaging an operating system, or building autonomous robots, we welcome your feedback, issues, and pull requests.
 
-[Official Website](https://www.spacemit.com) • [Documentation](https://docs.spacemit.com) • [Buy Hardware](https://shop.spacemit.com) • [Community Forum](https://forum.spacemit.com)
+[Official Website](https://www.spacemit.com) • [Documentation](https://www.spacemit.com/community/document) • [Buy Hardware](https://shop.spacemit.com) • [Community Forum](https://forum.spacemit.com)
 
 </div>

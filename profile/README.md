@@ -64,8 +64,9 @@ For more development guides and details, please refer to：https://github.com/sp
 </td>
 <td width="50%" valign="top">
 
-### 🦾 AI Robot & Embodied Intelligence
-Agent Computer is an open edge AI platform designed to bring multimodal intelligence into real-world devices. It provides a unified software stack for building AI agents that can understand language, vision, audio, and their surrounding environment—while running efficiently on local hardware.
+### 🦾 AI Robot
+A reusable robotics software foundation for RISC-V.
+SpacemiT Robot SDK provides an integrated software stack for robotics development — from system services and peripheral drivers to multimedia acceleration, on-device AI, and ROS2 packages for perception, SLAM, navigation, planning, and control.
 
 **Capabilities out of the box:**
 - **Imitation Learning & Manipulation**: Direct execution of behavioral cloning policies (ACT, SmolVLA).

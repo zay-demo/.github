@@ -48,7 +48,7 @@ SpacemiT builds next-generation RISC-V compute processors designed for demanding
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 Agent Computer
+### Agent Computer
 *An always-local intelligence core for edge hardware.*
 
 Think of it as a Raspberry Pi-class platform running generative LLMs and multimodal vision natively — serving as your product's local brain with deterministic privacy and instant execution.
@@ -65,9 +65,7 @@ Think of it as a Raspberry Pi-class platform running generative LLMs and multimo
 <td width="50%" valign="top">
 
 ### 🦾 AI Robot & Embodied Intelligence
-*A complete edge-compute robotics platform driven by K3.*
-
-From sensory perception to dynamic motor trajectory generation, K3 delivers the heterogeneous compute required for high-frequency motion loops, SLAM, and policy execution directly on the bot.
+Agent Computer is an open edge AI platform designed to bring multimodal intelligence into real-world devices. It provides a unified software stack for building AI agents that can understand language, vision, audio, and their surrounding environment—while running efficiently on local hardware.
 
 **Capabilities out of the box:**
 - **Imitation Learning & Manipulation**: Direct execution of behavioral cloning policies (ACT, SmolVLA).

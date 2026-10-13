@@ -8,7 +8,7 @@
 # RISC-V Architecture for Intelligent Future
 
 <p align="center">
-  <b>High-performance RISC-V SoCs powering On-Device AI Agents and Embodied Robotics.</b><br>
+  <b>Focused on developing next-generation high-performance AI CPUs based on RISC-V architecture and providing integrated hardware-software optimized computing solutions.</b><br>
   Zero Cloud Latency • Deterministic Privacy • Upstream Mainline Native
 </p>
 

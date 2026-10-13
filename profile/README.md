@@ -5,7 +5,7 @@
   <img src="https://files.seeusercontent.com/2026/09/28/7aSv/logosquare1.png" alt="SpacemiT Logo" width="260" onerror="this.src='https://www.spacemit.com/favicon.ico'; this.width=64;"/>
 </a>
 
-# RISC-V Architecture for an Intelligent Future
+# RISC-V Architecture for Intelligent Future
 
 <p align="center">
   <b>High-performance RISC-V SoCs powering On-Device AI Agents and Embodied Robotics.</b><br>

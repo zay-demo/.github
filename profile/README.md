@@ -33,7 +33,7 @@
 
 ---
 
-### 🌐 About SpacemiT
+### About SpacemiT
 
 SpacemiT builds next-generation RISC-V compute processors designed for demanding edge workloads. Our SoCs integrate high-throughput computing cores, standard vector extensions (RVV 1.0), and dedicated neural acceleration directly onto silicon — enabling **100% on-device AI execution** without recurring cloud API fees or network latency penalties.
 
@@ -42,13 +42,13 @@ SpacemiT builds next-generation RISC-V compute processors designed for demanding
 
 ---
 
-### 🚀 Target Applications
+### Target Applications
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Agent Computer
+### 🚀 Agent Computer
 Agent Computer is an open edge AI platform designed to bring multimodal intelligence into real-world devices. It provides a unified software stack for building AI agents that can understand language, vision, audio, and their surrounding environment—while running efficiently on local hardware.
 
 **What you can get today:**
@@ -80,7 +80,7 @@ SpacemiT Robot SDK provides an integrated software stack for robotics developmen
 
 ---
 
-### ⚡ Product Matrix
+### Product Matrix
 
 | CPU | Form Factors & Segments | Architecture & Highlights | Primary Repositories |
 | :--- | :--- | :--- | :--- |

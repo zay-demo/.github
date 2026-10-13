@@ -22,8 +22,6 @@
 
 <p align="center">
   <a href="https://www.spacemit.com/community/document">Documentation</a> •
-  <a href="https://github.com/spacemit-robotics">Robotics Hub</a> •
-  <a href="#-open-source-stack">Software Stack</a> •
   <a href="https://forum.spacemit.com">Community</a>
 </p>
 

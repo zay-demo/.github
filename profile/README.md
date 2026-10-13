@@ -2,7 +2,7 @@
 
 <!-- SpacemiT Official Logo -->
 <a href="https://www.spacemit.com">
-  <img src="https://raw.githubusercontent.com/spacemit-robotics/.github/main/assets/logo.png" alt="SpacemiT Logo" width="260" onerror="this.src='https://www.spacemit.com/favicon.ico'; this.width=64;"/>
+  <img src="[https://raw.githubusercontent.com/spacemit-robotics/.github/main/assets/logo.png](https://camo.githubusercontent.com/937659f60b642a1b6903865884f44fec84d4cad25a5d92109daea5e13ac672a3/68747470733a2f2f66696c65732e73656575736572636f6e74656e742e636f6d2f323032362f30392f32382f376153762f6c6f676f737175617265312e706e67)" alt="SpacemiT Logo" width="260" onerror="this.src='https://www.spacemit.com/favicon.ico'; this.width=64;"/>
 </a>
 
 # RISC-V Architecture for an Intelligent Future

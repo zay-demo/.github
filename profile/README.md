@@ -48,7 +48,7 @@ SpacemiT builds next-generation RISC-V compute processors designed for demanding
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 AI Agent Computer
+### 🧠 Agent Computer
 *An always-local intelligence core for edge hardware.*
 
 Think of it as a Raspberry Pi-class platform running generative LLMs and multimodal vision natively — serving as your product's local brain with deterministic privacy and instant execution.

@@ -92,19 +92,6 @@ From sensory perception to dynamic motor trajectory generation, K3 delivers the 
 
 ---
 
-### 🛠️ Open-Source Stack
-
-- **Kernel & Architecture Foundations**
-  - `linux-kernel`: SpacemiT patchsets upstreaming into mainline Linux.
-  - `uboot` / `opensbi`: Firmware implementation adhering to RISC-V privileged specifications.
-- **AI Runtimes & Acceleration**
-  - `npu-runtime`: Low-footprint inference engine for on-chip quantized execution.
-  - `model-zoo`: Pre-quantized model weights, conversion pipelines, and edge benchmarks.
-- **Embodied Robotics & Control**
-  - [spacemit-robotics](https://github.com/spacemit-robotics): Full stack for robotic manipulation, spatial SLAM, and RL runtime engines.
-
----
-
 <div align="center">
 
 ### 🤝 Join the Ecosystem

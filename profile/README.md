@@ -83,7 +83,7 @@ From sensory perception to dynamic motor trajectory generation, K3 delivers the 
 
 ---
 
-### ⚡ Silicon Matrix
+### ⚡ SoC Comparison
 
 | SoC | Form Factors & Segments | Architecture & Highlights | Primary Repositories |
 | :--- | :--- | :--- | :--- |

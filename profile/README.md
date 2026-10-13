@@ -1,76 +1,81 @@
 <div align="center">
 
-<!-- Banner 图建议比例 3:1 或 4:1，放置于本仓库的 assets 目录 -->
-<img src="https://raw.githubusercontent.com/spacemit-robotics/.github/main/assets/banner.png" alt="SpacemiT Banner" width="100%" onerror="this.style.display='none'"/>
+<!-- SpacemiT Official Logo -->
+<a href="https://www.spacemit.com">
+  <img src="https://raw.githubusercontent.com/spacemit-robotics/.github/main/assets/logo.png" alt="SpacemiT Logo" width="260" onerror="this.src='https://www.spacemit.com/favicon.ico'; this.width=64;"/>
+</a>
 
 # RISC-V Architecture for an Intelligent Future
 
 <p align="center">
   <b>High-performance RISC-V SoCs powering On-Device AI Agents and Embodied Robotics.</b><br>
-  Zero Cloud Latency • Full Privacy • True Upstream Mainline
+  Zero Cloud Latency • Deterministic Privacy • Upstream Mainline Native
 </p>
 
-<!-- 核心技术与生态徽章 -->
+<!-- Ecosystem & Architecture Badges -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Architecture-RISC--V%20(RVA22%2BVector)-blue?style=flat-square&logo=riscv&logoColor=white" alt="RISC-V">
-  <img src="https://img.shields.io/badge/Linux%20Kernel-Mainline%20Supported-success?style=flat-square&logo=linux&logoColor=white" alt="Linux">
+  <a href="https://riscv.org/"><img src="https://img.shields.io/badge/ISA-RISC--V%20(RVA22%20%2B%20Vector%201.0)-blue?style=flat-square&logo=riscv&logoColor=white" alt="RISC-V"></a>
+  <a href="https://www.kernel.org/"><img src="https://img.shields.io/badge/Linux%20Kernel-Mainline%20Supported-success?style=flat-square&logo=linux&logoColor=white" alt="Linux"></a>
   <img src="https://img.shields.io/badge/Toolchain-GCC%20%7C%20LLVM%20Upstream-orange?style=flat-square" alt="Toolchain">
-  <img src="https://img.shields.io/badge/Hardware-K1%20%7C%20K3%20SoCs-blueviolet?style=flat-square" alt="Hardware">
+  <img src="https://img.shields.io/badge/Silicon-K1%20%7C%20K3%20SoCs-blueviolet?style=flat-square" alt="Hardware">
+  <a href="https://discord.gg/spacemit"><img src="https://img.shields.io/badge/Community-Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
 <p align="center">
-  <a href="https://docs.spacemit.com">📖 开发者文档</a> •
-  <a href="#-silicon-matrix">⚡ 芯片规格</a> •
-  <a href="https://github.com/spacemit-robotics">🦾 机器人仓库</a> •
-  <a href="https://forum.spacemit.com">💬 社区论坛</a>
+  <a href="https://docs.spacemit.com">Documentation</a> •
+  <a href="#-silicon-matrix">Silicon Matrix</a> •
+  <a href="https://github.com/spacemit-robotics">Robotics Hub</a> •
+  <a href="#-open-source-stack">Software Stack</a> •
+  <a href="https://forum.spacemit.com">Community</a>
 </p>
 
 </div>
 
 ---
 
-### 🌐 About SpacemiT (进迭时空)
+### 🌐 About SpacemiT
 
-SpacemiT builds next-generation RISC-V processors designed for compute-intensive edge workloads. Our SoCs bring high-performance computing, vector acceleration, and neural processing directly onto silicon, enabling **100% on-device AI execution** without recurring cloud API bills or network latency.
+SpacemiT builds next-generation RISC-V compute processors designed for demanding edge workloads. Our SoCs integrate high-throughput computing cores, standard vector extensions (RVV 1.0), and dedicated neural acceleration directly onto silicon — enabling **100% on-device AI execution** without recurring cloud API fees or network latency penalties.
 
-> **Our Upstream-First Philosophy**  
-> We actively contribute to and respect the open-source ecosystem. Both **K1** and **K3** are supported in **mainline Linux**, standard **GCC**, **LLVM**, and **Binutils**. No proprietary closed toolchains, no broken custom kernels — your standard Linux distribution toolchain simply works out of the box.
+> **Upstream-First Engineering**  
+> We actively contribute to open-source foundation projects. Both **K1** and **K3** are supported in **mainline Linux**, standard **GCC**, **LLVM**, and **Binutils**. No proprietary toolchains, no obsolete custom forks — standard distribution packages from Debian, Ubuntu, and Fedora work out of the box.
 
 ---
 
-### 🚀 Two Core Applications
+### 🚀 Target Applications
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🧠 AI Agent Computer
-*An always-local intelligence core for edge systems.*
+*An always-local intelligence core for edge hardware.*
 
-Think of it as a Raspberry Pi-class board running LLMs and multimodal vision natively — serving as your product's local brain with deterministic privacy and zero API costs.
+Think of it as a Raspberry Pi-class platform running generative LLMs and multimodal vision natively — serving as your product's local brain with deterministic privacy and instant execution.
 
-**What you can build today:**
-- **Local LLM & Tool Use**: Native chat and agentic function calling (Qwen, DeepSeek, Llama, GLM) via OpenAI-compatible endpoints.
-- **Multimodal Vision Pipeline**: High-fps detection, real-time tracking, instance segmentation, and pose estimation.
-- **Conversational Voice**: Full edge loop: Wake-word → VAD → ASR → On-device LLM reasoning → TTS.
+**Capabilities out of the box:**
+- **Local LLMs & Tool Use**: Native quantized chat models and autonomous function-calling (Qwen, DeepSeek, Llama, GLM) via OpenAI-compatible endpoints.
+- **Multimodal Vision**: Real-time high-FPS detection, tracking, instance segmentation, and pose estimation.
+- **Conversational Voice**: Full offline edge pipeline: Wake-Word → VAD → ASR → On-device LLM reasoning → TTS.
+- **Multi-Agent Loops**: Autonomous local tasks with peripheral sensor input.
 
-👉 **[Explore Agent Software & Examples →](https://github.com/spacemit-robotics)**
+👉 **[Explore AI Agent Repositories →](https://github.com/spacemit-robotics)**
 
 </td>
 <td width="50%" valign="top">
 
 ### 🦾 AI Robot & Embodied Intelligence
-*A complete edge-compute platform powered by K3.*
+*A complete edge-compute robotics platform driven by K3.*
 
-From sensor fusion to motor execution, K3 delivers the heterogeneous compute needed for high-frequency motion control, SLAM, and policy inference entirely on-chip.
+From sensory perception to dynamic motor trajectory generation, K3 delivers the heterogeneous compute required for high-frequency motion loops, SLAM, and policy execution directly on the bot.
 
-**What you can build today:**
-- **Embodied Manipulation**: Deploy imitation-learning policies directly on hardware (ACT, SmolVLA).
-- **Humanoid Whole-Body Control**: Low-latency Reinforcement Learning (RL) policy inference.
-- **Spatial Autonomy**: Real-time Visual SLAM and onboard autonomous navigation.
-- **Sim-to-Real Workflow**: Train in MuJoCo simulation and flash straight to K3 hardware.
+**Capabilities out of the box:**
+- **Imitation Learning & Manipulation**: Direct execution of behavioral cloning policies (ACT, SmolVLA).
+- **Humanoid & Quadruped Control**: Low-latency Reinforcement Learning (RL) whole-body control policies.
+- **Spatial Autonomy**: Real-time Visual-Inertial SLAM, point cloud processing, and onboard path planning.
+- **Sim-to-Real Pipeline**: Zero-overhead transitions from MuJoCo physics simulation to K3 bare metal.
 
-👉 **[Explore Robotics Demos & Kernels →](https://github.com/spacemit-robotics)**
+👉 **[Explore Robotics Demos & SDKs →](https://github.com/spacemit-robotics)**
 
 </td>
 </tr>
@@ -80,32 +85,32 @@ From sensor fusion to motor execution, K3 delivers the heterogeneous compute nee
 
 ### ⚡ Silicon Matrix
 
-| SoC | Target Segment | Architecture & Highlights | Key Software Repos |
+| SoC | Form Factors & Segments | Architecture & Highlights | Primary Repositories |
 | :--- | :--- | :--- | :--- |
-| **SpacemiT K1** | Single-board Computers, Edge AI Boxes, Intelligent Terminals | 8-core RISC-V (RVA22), 2.0 TOPS NPU, RISC-V Vector 1.0 support | Linux BSP, Muse-Pi OS, NPU Toolchain |
-| **SpacemiT K3** | Embodied AI, Humanoids, Quadrupeds, High-payload Robotic Arms | Advanced Heterogeneous Compute, High-bandwidth Vision/Sensory I/O | [spacemit-robotics](https://github.com/spacemit-robotics), MuJoCo-to-K3 |
+| **SpacemiT K1** | Single-board Computers, Edge AI Gateways, Smart Displays | 8-core RISC-V (RVA22), 2.0 TOPS NPU, RISC-V Vector 1.0 support | Linux BSP, Muse-Pi OS, NPU Toolchain |
+| **SpacemiT K3** | Embodied AI, Humanoids, Quadrupeds, Robotic Arms | High-throughput Heterogeneous Compute, High-bandwidth Vision/Sensory I/O | [spacemit-robotics](https://github.com/spacemit-robotics), MuJoCo-to-K3 Runtime |
 
 ---
 
-### 🛠️ Open Source Ecosystem Map
+### 🛠️ Open-Source Stack
 
-* **Kernel & Low-Level Stack**
-  * `linux-kernel`: SpacemiT reference kernel trees & patchsets targeting mainline.
-  * `uboot` / `opensbi`: Open firmware implementation conforming to RISC-V privileged spec.
-* **AI & Acceleration Runtimes**
-  * `npu-runtime`: Optimized runtime for on-device quantized model execution.
-  * `model-zoo`: Pre-converted weights and benchmark scripts for vision and LLM models.
-* **Robotics & Embodied Frameworks**
-  * [spacemit-robotics](https://github.com/spacemit-robotics): Complete codebase for robot arm control, SLAM navigation, and humanoid RL deployments.
+- **Kernel & Architecture Foundations**
+  - `linux-kernel`: SpacemiT patchsets upstreaming into mainline Linux.
+  - `uboot` / `opensbi`: Firmware implementation adhering to RISC-V privileged specifications.
+- **AI Runtimes & Acceleration**
+  - `npu-runtime`: Low-footprint inference engine for on-chip quantized execution.
+  - `model-zoo`: Pre-quantized model weights, conversion pipelines, and edge benchmarks.
+- **Embodied Robotics & Control**
+  - [spacemit-robotics](https://github.com/spacemit-robotics): Full stack for robotic manipulation, spatial SLAM, and RL runtime engines.
 
 ---
 
 <div align="center">
 
-### 🤝 Join the RISC-V Edge Revolution
+### 🤝 Join the Ecosystem
 
-Whether you are hacking on a custom board, porting an OS distribution, or building an autonomous robot, we welcome your feedback and pull requests!
+Whether you are bringing up a custom board, packaging an operating system, or building autonomous robots, we welcome your feedback, issues, and pull requests.
 
-[官方网站](https://www.spacemit.com) • [技术文档 Hub](https://docs.spacemit.com) • [购买开发板](https://shop.spacemit.com) • [加入开发者社区](https://discord.gg/spacemit)
+[Official Website](https://www.spacemit.com) • [Documentation](https://docs.spacemit.com) • [Buy Hardware](https://shop.spacemit.com) • [Community Forum](https://forum.spacemit.com)
 
 </div>
